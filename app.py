@@ -102,7 +102,7 @@ def get_mean() -> str:
 def phonebook_user_add(args: dict[fields.Str])->str:
     add_item(args)
 
-    return "OK"
+    return "Record added successfully"
 
 
 # Read all items from phonebook
@@ -130,7 +130,7 @@ def phonebook_read_item(pk: int)->str:
 def item_update(args: dict[str], pk: int)->str | Response:
     result = update_item(args, pk)
 
-    return result if result is not None else "OK"
+    return result if result is not None else "Record updated successfully"
 
 
 # Delete item from phonebook
@@ -138,7 +138,7 @@ def item_update(args: dict[str], pk: int)->str | Response:
 def phonebook_delete_item(pk: int)->str:
     delete_item(pk)
 
-    return "OK"
+    return "Record updated successfully"
 
 
 # Create db on app run
