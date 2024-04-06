@@ -37,7 +37,7 @@ http://127.0.0.1:5000/item/delete/<int:pk>
 ## 🏠 Build
 
 
-### ▶️ Run
+#### ▶️ Run
 
 Make all actions needed for run homework from zero. Including configuration.
 
@@ -45,7 +45,7 @@ Make all actions needed for run homework from zero. Including configuration.
 make d-homework-i-run
 ```
 
-### 🚮 Purge
+#### 🚮 Purge
 
 Make all actions needed for stop homework from zero.
 
@@ -57,7 +57,7 @@ make d-homework-i-purge
 
 ## 🛠️ Dev
 
-### Initialize dev
+#### Initialize dev
 
 Install dependencies and register pre-commit.
 
@@ -65,7 +65,7 @@ Install dependencies and register pre-commit.
 make init-dev
 ```
 
-### ⚙️ Configure
+#### ⚙️ Configure
 
 Configure homework.
 
@@ -79,7 +79,7 @@ make init-configs
 
 Use services in dockers.
 
-### ▶️ Run
+#### ▶️ Run
 
 Just run
 
@@ -87,7 +87,7 @@ Just run
 make d-run
 ```
 
-### ⏹️Stop
+#### ⏹️Stop
 
 Stop services
 
@@ -95,7 +95,7 @@ Stop services
 make d-stop
 ```
 
-### 🚮 Purge
+#### 🚮 Purge
 
 Purge all data related with services
 
